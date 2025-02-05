@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Zhopa Coin App</title>
+	<link type="image/x-icon" rel="icon" href="./assets/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="all"  href="./sources/style.css" />
+	<script src="./sources/application.js"></script>
+	<script src="./sources/slot.js"></script>
+</head>
+<body>
+	<div id="viewport">		
+		<div id="appSection" >
+			<div class="appBlock -hBlock">
+				<div id="appHeadVis" class="dhBlock">
+					<div class="-pussyText"></div>
+				</div>
+				<div id="appCoinsVis" class="dhBlock -pussyText"></div>
+				<div id="appFootVis" class="dhBlock">
+					<div class="-pussyText"></div>
+				</div>
+			</div>
+			<div id="appBoostSection" class="appBlock" style="width:100%;">	
+				<!-- <div class="-pussyText">Boost: </div> -->
+								
+			</div>
+			<div class="appBlock -fBlock">
+				<div class="dhBlock">
+					
+				</div>
+				<div class="butPodval">
+					<div class="-butt">
+						<a href="./ref.html"><div class="-buttIco rButton"><img src="./assets/icons/Ref.png"></div></a>
+						<div class="-pussyText">Ref.</div>
+					</div>
+					<div class="-butt">
+						<a href="./earn.html"><div class="-buttIco rButton"><img src="./assets/icons/Earn.png"></div></a>
+						<div class="-pussyText">Earn</div>
+					</div>
+					<div class="-butt">
+						<a href="./index.html"><div class="-buttIco rButton"><img src="./assets/icons/Farm.png"></div></a>
+						<div class="-pussyText">Tap</div>
+					</div>
+					<div class="-butt -activ">
+						<a href="./boost.html"><div class="-buttIco rButton"><img src="./assets/icons/Boost.png"></div></a>
+						<div class="-pussyText">Boost</div>
+					</div>
+					<div class="-butt">
+						<a href="./stats.html"><div class="-buttIco rButton"><img src="./assets/icons/Stats.png"></div></a>
+						<div class="-pussyText">Stats</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script>
+AppBuildStyle();
+	
+function AppBuildStyle() {	
+	var appSection = document.querySelector('#appSection');
+	var appWidth = Math.floor(window.innerWidth*80/100);	
+	var appHeight = Math.floor(Telegram.WebApp.viewportStableHeight-4);	
+	appSection.setAttribute("style","width:"+appWidth+"px;height:"+appHeight+"px;");
+	console.log(window.innerWidth +" / "+appWidth +"px");
+}
+</script>
+</body>
+</html>

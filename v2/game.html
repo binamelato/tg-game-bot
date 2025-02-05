@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+	<link type="image/x-icon" rel="icon" href="./assets/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="all"  href="./sources/style.css" />	
+</head>
+<body>
+	<div id="viewport">		
+		<div id="appSection" class="">			
+			<div id="sectorHead" class="-section">
+				<div id="appHeadVis" class="dhBlock">	
+<div style="height:40px;display:flex;justify-content:space-between;">
+	<div>
+		<div style="font-weight:600;" id="tapTitul"></div>
+	</div>
+	<div style="display:flex;">
+		<button  style="width:40px;height:40px;border:none;padding:0;">
+			<img id="testalert" src="./assets/notify.png" style="width:100%;height:100%;">
+		</button>
+		<button  style="width:40px;height:40px;border:none;padding:0;">
+			<img id="testalert3" src="./assets/gear.png" style="width:100%;height:100%;">
+		</button>
+	</div>						
+</div>				
+				</div>
+				<div id="appMiddVis" class="dhTablo">					
+				</div>
+				<div id="appFootVis" class="dhBlock">					
+				</div>
+			</div>
+			<div id="sectorMidd" class="-section">
+				<p id="sectorData"></p>
+			</div>
+			<div id="sectorFoot" class="-section">	
+				<div class="dhBlock">	
+					<div id="eCounter" class="-pussyText"><span id="from"></span>/<span id="to"></span></div>
+					<div id="hProgress">
+						<div id="hpLine"></div>
+					</div>
+				</div>
+				<div id="butPodval" class="butPodval">					
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+zhgame = {	
+	version: 1	
+}
+</script>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="./sources/tapApp.js"></script>
+<script src="./sources/tapLogic.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>/*eruda.init();*/</script>
+</body>
+</html>

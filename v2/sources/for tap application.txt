@@ -1,0 +1,25 @@
+Первоначальный экран загрузки.
+После старта спрашивает на выбор:
+[mommy/daddy/master/mistress]
+
+Потом грузится картинка на весьб экран. Где девица представляется и т.д.
+С разных сторон выползают блоки действия, как в комиксах ,а затем задняя картинка
+меняется и теперь девиц стоит голая, обращаясь к нам, по выбранному прозвищу(мб ник брать из тг)
+
+затем отображается кнопка старт.
+
+
+Сделать обратную щкалу(полосу прогресса) чтобы она не опускалась ,а наоборот и чем полнее, тем краснее.
+мб как в играх при максимуме, сигналить красным, как при низком хп. и постепенно опускать. Типа остывание плоти после шлепков.
+
+
+
+Уведомления(alert)
+
+- [mommy/daddy/master/mistress] im wait you.
+- [mommy/daddy/master/mistress] You've been gone so long.
+- [mommy/daddy/master/mistress] i miss you.
+- [mommy/daddy/master/mistress] i belive that you dont forgot me.
+- [mommy/daddy/master/mistress] My ass wants to be spanked.
+- [mommy/daddy/master/mistress] Time for slaps and screams.
+
