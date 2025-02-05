@@ -10,6 +10,7 @@
 ## Скриншоты
 <details>
 <summary>Screenshots</summary>
+
 v1.</br>
 ![Снимок экрана_5-2-2025_172513](https://github.com/user-attachments/assets/042e7d46-5290-4a47-b8a9-1aa685ac6b46)
 
